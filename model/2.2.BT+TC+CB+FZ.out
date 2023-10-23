@@ -1,0 +1,50 @@
+Fri Apr 21 01:12:17 2023       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 515.65.01    Driver Version: 515.65.01    CUDA Version: 11.7     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA A100-PCI...  On   | 00000000:21:00.0 Off |                    0 |
+| N/A   26C    P0    34W / 250W |      0MiB / 40960MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+|   1  NVIDIA A100-PCI...  On   | 00000000:81:00.0 Off |                    0 |
+| N/A   26C    P0    36W / 250W |      0MiB / 40960MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForSequenceClassification: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+PyTorch Version : 1.13.1
+cuda
+***** Best Result Updated at Epoch 1, Val Loss: 0.3981 *****
+Epoch [1/10], Time: 241.75s, Train Loss: 0.4386, Train Acc: 0.2520, Train F1 Macro: 0.1979, Train F1 Micro: 0.2520, Val Loss: 0.3981, Val Acc: 0.4003, Val F1 Macro: 0.3806, Val F1 Micro: 0.4003
+***** Best Result Updated at Epoch 2, Val Loss: 0.3724 *****
+Epoch [2/10], Time: 238.73s, Train Loss: 0.3879, Train Acc: 0.3903, Train F1 Macro: 0.2798, Train F1 Micro: 0.3211, Val Loss: 0.3724, Val Acc: 0.4136, Val F1 Macro: 0.3833, Val F1 Micro: 0.4069
+***** Best Result Updated at Epoch 3, Val Loss: 0.3515 *****
+Epoch [3/10], Time: 236.83s, Train Loss: 0.3667, Train Acc: 0.4303, Train F1 Macro: 0.3265, Train F1 Micro: 0.3575, Val Loss: 0.3515, Val Acc: 0.4603, Val F1 Macro: 0.4057, Val F1 Micro: 0.4247
+***** Best Result Updated at Epoch 4, Val Loss: 0.3465 *****
+Epoch [4/10], Time: 235.86s, Train Loss: 0.3514, Train Acc: 0.4483, Train F1 Macro: 0.3568, Train F1 Micro: 0.3802, Val Loss: 0.3465, Val Acc: 0.4548, Val F1 Macro: 0.4178, Val F1 Micro: 0.4322
+***** Best Result Updated at Epoch 5, Val Loss: 0.3449 *****
+Epoch [5/10], Time: 232.88s, Train Loss: 0.3447, Train Acc: 0.4522, Train F1 Macro: 0.3766, Train F1 Micro: 0.3946, Val Loss: 0.3449, Val Acc: 0.4494, Val F1 Macro: 0.4235, Val F1 Micro: 0.4357
+***** Best Result Updated at Epoch 6, Val Loss: 0.3443 *****
+Epoch [6/10], Time: 232.90s, Train Loss: 0.3378, Train Acc: 0.4667, Train F1 Macro: 0.3924, Train F1 Micro: 0.4066, Val Loss: 0.3443, Val Acc: 0.4455, Val F1 Macro: 0.4269, Val F1 Micro: 0.4373
+***** Best Result Updated at Epoch 7, Val Loss: 0.3436 *****
+Epoch [7/10], Time: 232.92s, Train Loss: 0.3337, Train Acc: 0.4737, Train F1 Macro: 0.4041, Train F1 Micro: 0.4162, Val Loss: 0.3436, Val Acc: 0.4439, Val F1 Macro: 0.4293, Val F1 Micro: 0.4383
+Epoch [8/10], Time: 232.98s, Train Loss: 0.3282, Train Acc: 0.4935, Train F1 Macro: 0.4163, Train F1 Micro: 0.4259, Val Loss: 0.3464, Val Acc: 0.4283, Val F1 Macro: 0.4300, Val F1 Micro: 0.4370
+Epoch [9/10], Time: 232.35s, Train Loss: 0.3224, Train Acc: 0.5045, Train F1 Macro: 0.4270, Train F1 Micro: 0.4346, Val Loss: 0.3492, Val Acc: 0.4252, Val F1 Macro: 0.4300, Val F1 Micro: 0.4357
+Epoch [10/10], Time: 232.26s, Train Loss: 0.3184, Train Acc: 0.5087, Train F1 Macro: 0.4359, Train F1 Micro: 0.4420, Val Loss: 0.3504, Val Acc: 0.4299, Val F1 Macro: 0.4301, Val F1 Micro: 0.4351
+Total Training Time: 2349.46s
+Test Loss: 0.3554, Test Acc: 0.4238, Test F1 Macro: 0.4253, Test F1 Micro: 0.4238

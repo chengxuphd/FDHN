@@ -1,0 +1,40 @@
+Fri Apr 21 02:53:18 2023       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 515.65.01    Driver Version: 515.65.01    CUDA Version: 11.7     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA A100-PCI...  On   | 00000000:3B:00.0 Off |                    0 |
+| N/A   30C    P0    25W / 250W |      0MiB / 32768MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  NVIDIA A100-PCI...  On   | 00000000:D8:00.0 Off |                    0 |
+| N/A   30C    P0    22W / 250W |      0MiB / 32768MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+PyTorch Version : 1.13.1
+cuda
+***** Best Result Updated at Epoch 1, Val Loss: 0.4421 *****
+Epoch [1/10], Time: 10.47s, Train Loss: 0.4526, Train Acc: 0.2042, Train F1 Macro: 0.1616, Train F1 Micro: 0.2042, Val Loss: 0.4421, Val Acc: 0.2438, Val F1 Macro: 0.1481, Val F1 Micro: 0.2438
+***** Best Result Updated at Epoch 2, Val Loss: 0.4357 *****
+Epoch [2/10], Time: 3.32s, Train Loss: 0.4366, Train Acc: 0.2570, Train F1 Macro: 0.1833, Train F1 Micro: 0.2306, Val Loss: 0.4357, Val Acc: 0.2523, Val F1 Macro: 0.1548, Val F1 Micro: 0.2481
+Epoch [3/10], Time: 3.09s, Train Loss: 0.4239, Train Acc: 0.3015, Train F1 Macro: 0.2070, Train F1 Micro: 0.2542, Val Loss: 0.4379, Val Acc: 0.2321, Val F1 Macro: 0.1696, Val F1 Micro: 0.2427
+Epoch [4/10], Time: 3.15s, Train Loss: 0.4065, Train Acc: 0.3549, Train F1 Macro: 0.2369, Train F1 Micro: 0.2794, Val Loss: 0.4408, Val Acc: 0.2461, Val F1 Macro: 0.1860, Val F1 Micro: 0.2436
+Epoch [5/10], Time: 3.11s, Train Loss: 0.3837, Train Acc: 0.4188, Train F1 Macro: 0.2717, Train F1 Micro: 0.3073, Val Loss: 0.4501, Val Acc: 0.2227, Val F1 Macro: 0.1859, Val F1 Micro: 0.2394
+Epoch [6/10], Time: 3.15s, Train Loss: 0.3559, Train Acc: 0.4876, Train F1 Macro: 0.3083, Train F1 Micro: 0.3373, Val Loss: 0.4556, Val Acc: 0.2360, Val F1 Macro: 0.1893, Val F1 Micro: 0.2388
+Epoch [7/10], Time: 3.18s, Train Loss: 0.3235, Train Acc: 0.5650, Train F1 Macro: 0.3467, Train F1 Micro: 0.3699, Val Loss: 0.4687, Val Acc: 0.2352, Val F1 Macro: 0.1941, Val F1 Micro: 0.2383
+Epoch [8/10], Time: 3.18s, Train Loss: 0.2896, Train Acc: 0.6344, Train F1 Macro: 0.3844, Train F1 Micro: 0.4029, Val Loss: 0.4999, Val Acc: 0.2305, Val F1 Macro: 0.1978, Val F1 Micro: 0.2373
+Epoch [9/10], Time: 3.19s, Train Loss: 0.2578, Train Acc: 0.7012, Train F1 Macro: 0.4216, Train F1 Micro: 0.4361, Val Loss: 0.5469, Val Acc: 0.2321, Val F1 Macro: 0.1988, Val F1 Micro: 0.2368
+Epoch [10/10], Time: 3.24s, Train Loss: 0.2268, Train Acc: 0.7573, Train F1 Macro: 0.4569, Train F1 Micro: 0.4682, Val Loss: 0.5746, Val Acc: 0.2243, Val F1 Macro: 0.2004, Val F1 Micro: 0.2355
+Total Training Time: 39.08s
+Test Loss: 0.4379, Test Acc: 0.2463, Test F1 Macro: 0.1446, Test F1 Micro: 0.2463
