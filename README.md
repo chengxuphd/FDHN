@@ -36,20 +36,20 @@ Three types of models are considered: (i) models with only ($TC$) or ($TC+FZ$) f
 If you find our work useful in your research, please consider citing:
 
 ```bibtex
-@inproceedings{10.1145/3628797.3628971,
-author = {Xu, Cheng and Kechadi, M-Tahar},
-title = {Fuzzy Deep Hybrid Network for Fake News Detection},
-year = {2023},
-isbn = {9798400708916},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3628797.3628971},
-doi = {10.1145/3628797.3628971},
-booktitle = {Proceedings of the 12th International Symposium on Information and Communication Technology},
-pages = {118–125},
-numpages = {8},
-keywords = {Classification Systems, Deep Learning, Hybrid Learning Models, Fuzzy Deep Learning, Fake News Detection},
-location = {<conf-loc>, <city>Ho Chi Minh</city>, <country>Vietnam</country>, </conf-loc>},
-series = {SOICT '23}
+@inproceedings{xu2023fuzzy,
+   author = {Xu, Cheng and Kechadi, M-Tahar},
+   title = {Fuzzy Deep Hybrid Network for Fake News Detection},
+   year = {2023},
+   isbn = {9798400708916},
+   publisher = {Association for Computing Machinery},
+   address = {New York, NY, USA},
+   url = {https://doi.org/10.1145/3628797.3628971},
+   doi = {10.1145/3628797.3628971},
+   booktitle = {Proceedings of the 12th International Symposium on Information and Communication Technology},
+   pages = {118–125},
+   numpages = {8},
+   keywords = {Classification Systems, Deep Learning, Hybrid Learning Models, Fuzzy Deep Learning, Fake News Detection},
+   location = {<conf-loc>, <city>Ho Chi Minh</city>, <country>Vietnam</country>, </conf-loc>},
+   series = {SOICT '23}
 }
 ```
