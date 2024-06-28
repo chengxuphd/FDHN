@@ -53,3 +53,17 @@ If you find our work useful in your research, please consider citing:
    series = {SOICT '23}
 }
 ```
+and
+
+```bibtex
+@article{xu2024enhanced,
+  author={Xu, Cheng and Kechadi, M-Tahar},
+  journal={IEEE Access}, 
+  title={An Enhanced Fake News Detection System With Fuzzy Deep Learning}, 
+  year={2024},
+  volume={12},
+  number={},
+  pages={88006-88021},
+  keywords={Fake news;Fuzzy logic;Benchmark testing;Social networking (online);Deep learning;Task analysis;Natural language processing;Classification algorithms;Deep learning;fuzzy deep learning;fake news;fake news detection;fact-checking;NLP;classification systems;benchmark},
+  doi={10.1109/ACCESS.2024.3418340}}
+```
