@@ -1,6 +1,6 @@
 # Fuzzy Deep Hybrid Network for Fake News Detection
 
-This repository contains the resources of our paper: "[Fuzzy Deep Hybrid Network for Fake News Detection](https://doi.org/10.1145/3628797.3628971)". The resources include the complete code for each sub-model used in the paper, and the record of their outputs.
+This repository contains the resources of our paper: "[Fuzzy Deep Hybrid Network for Fake News Detection](https://doi.org/10.1145/3628797.3628971)" and "[An Enhanced Fake News Detection System With Fuzzy Deep Learning](https://doi.org/10.1109/ACCESS.2024.3418340)". The resources include the complete code for each sub-model used in the paper, and the record of their outputs.
 
 
 ## Models
@@ -11,7 +11,7 @@ The FDHN model utilises a tripartite input structure comprising three distinct c
 
 In this model, there are four basic components: TextCNN ($TC$), BERT ($BT$), CNNBiLSTM ($CB$) and Fuzzy ($FZ$).
 
-Three types of models are considered: (i) models with only ($TC$) or ($TC+FZ$) for news text data, (ii) models with multiple components ($BT, TC, CB$) and their fuzzy counterpart ($BT+TC+CB+FZ$), (iii) models with multiple components ($TC, TC, CB$) and their fuzzy counterpart ($TC+TC+CB+FZ$). All the code and record are at [`./model`](https://github.com/chengxuphd/FDHN/tree/main/model)
+Three types of models are considered: (i) models with only ($TC$) or ($TC+FZ$) for news text data, (ii) models with multiple components ($BT, TC, CB$) and their fuzzy counterpart ($BT+TC+CB+FZ$), (iii) models with multiple components ($TC, TC, CB$) and their fuzzy counterpart ($TC+TC+CB+FZ$). All the code and record are at [`./model`](./model)
 
 
 
