@@ -53,7 +53,6 @@ If you find our work useful in your research, please consider citing:
    series = {SOICT '23}
 }
 ```
-and
 
 ```bibtex
 @article{xu2024enhanced,
