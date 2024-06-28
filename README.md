@@ -1,4 +1,4 @@
-# Fuzzy Deep Hybrid Network for Fake News Detection
+# Fuzzy Deep Hybrid Network
 
 This repository contains the resources of our paper: "[Fuzzy Deep Hybrid Network for Fake News Detection](https://doi.org/10.1145/3628797.3628971)" and "[An Enhanced Fake News Detection System With Fuzzy Deep Learning](https://doi.org/10.1109/ACCESS.2024.3418340)". The resources include the complete code for each sub-model used in the paper, and the record of their outputs.
 
